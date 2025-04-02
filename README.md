@@ -10,7 +10,8 @@ Date: 29-03-2025
 
 1. Introduction:
 
-Problem Statement 
+Problem Statement:
+
 Accurate segmentation of anatomical structures in the brain is crucial for neuroimaging applications, including disease diagnosis and progression monitoring. Traditional manual segmentation methods are time-consuming and prone to inter-observer variability. This study presents an AI-driven approach to automate brain segmentation, enabling precise identification of brain structures such as gray matter, white matter, and cerebrospinal fluid (CSF). Furthermore, the model integrates an abnormality detection module to identify pathological regions such as tumors, lesions, and atrophy.
 Objective
 The primary objective is to develop, train, and validate an AI framework capable of:
