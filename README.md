@@ -3,8 +3,11 @@ Development of an Open-Source AI Framework for Automated Brain Segmentation, Abn
 
 
 Name: L E Sree Sai Praneeth Goud
+
 Roll No: BL.EN.U4CSE21110
+
 Institution: Amrita School of Engineering, Bangalore
+
 Date: 29-03-2025
 
 
