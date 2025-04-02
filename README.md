@@ -37,7 +37,8 @@ To ensure consistency across datasets, the following preprocessing steps were pe
 ![image](https://github.com/user-attachments/assets/d0f83ea0-109d-4e93-bfb0-02b5c78b38e4)
 ![image](https://github.com/user-attachments/assets/63b9a049-3f0a-4f81-9c8d-4df9d817c604)
 ![image](https://github.com/user-attachments/assets/36a08496-6474-40e5-96a8-7ec50910e066)
-                                 Details of BRATS dataset
+                                 
+Details of BRATS dataset
  
 
  
