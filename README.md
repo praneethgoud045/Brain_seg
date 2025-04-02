@@ -2,17 +2,14 @@
 Development of an Open-Source AI Framework for Automated Brain Segmentation, Abnormality Detection, and Statistical Analysis in Neuroimaging
 
 
-Development of an Open-Source AI Framework for Automated Brain Segmentation, Abnormality Detection, and Statistical Analysis in Neuroimaging
-
-
 Name: L E Sree Sai Praneeth Goud
 Roll No: BL.EN.U4CSE21110
 Institution: Amrita School of Engineering, Bangalore
 Date: 29-03-2025
 
-________________________________________
 
-1. Introduction
+1. Introduction:
+
 Problem Statement 
 Accurate segmentation of anatomical structures in the brain is crucial for neuroimaging applications, including disease diagnosis and progression monitoring. Traditional manual segmentation methods are time-consuming and prone to inter-observer variability. This study presents an AI-driven approach to automate brain segmentation, enabling precise identification of brain structures such as gray matter, white matter, and cerebrospinal fluid (CSF). Furthermore, the model integrates an abnormality detection module to identify pathological regions such as tumors, lesions, and atrophy.
 Objective
@@ -28,14 +25,19 @@ The following open-source datasets were used for training and evaluation:
 1.	BRATS (Brain Tumor Segmentation Challenge) – Contains annotated MRI scans of brain tumors.
 2.	IXI Dataset – A collection of T1, T2, and PD-weighted MRI images for healthy brain structures.
 3.	Open Neuro – Provides diverse neuroimaging datasets, including normal and abnormal brain scans.
- 
+
+![image](https://github.com/user-attachments/assets/29bb4d10-ecca-471d-8bd7-0bfd5acad75e)
+
+ like this we loaded sample files from their datasets.
 
 Preprocessing Steps:
 To ensure consistency across datasets, the following preprocessing steps were performed:
  
+![image](https://github.com/user-attachments/assets/d0f83ea0-109d-4e93-bfb0-02b5c78b38e4)
 
- 
-like this we loaded sample files from their datasets.
+
+
+
 
  
                                         Details of BRATS dataset
@@ -111,7 +113,6 @@ Different Views of Image:
  
 
 
-________________________________________
 
 2.2 Model Development
 Architecture Used
@@ -172,12 +173,15 @@ Segmentations:
 •	Heatmaps highlighting regions of interest.
  
 
-3.3 Statistical Results
-Statistical Test	      p-value	         Interpretation
-t-test (Tumor vs. Normal)	        0.19	         Significant difference detected
-ANOVA 	        0.20	          Significant variance observed
-________________________________________
-4. Conclusion
+3.3 Statistical Results:
+
+Statistical Test	                p-value	         Interpretation
+t-test (Tumor vs. Normal)	        0.19	           Significant difference detected
+ANOVA 	                           0.20	           Significant variance observed
+
+
+4. Conclusion:
+
 This study successfully developed an AI-driven framework for automated brain segmentation and abnormality detection. The use of U-Net and MONAI enabled efficient segmentation of anatomical structures such as gray matter, white matter, and CSF.
 Abnormality detection was enhanced using heatmaps and volumetric analysis, effectively identifying tumors and lesions in MRI scans. The integration of statistical methods such as t-tests and ANOVA provided validation, ensuring the robustness of the model across different datasets and patient groups.
 The results demonstrate the potential of AI in neuroimaging applications, reducing manual workload and improving diagnostic accuracy. Future work will focus on integrating multi-modal data (e.g., PET-MRI fusion) and expanding the model's capability to detect a broader range of neurological disorders.
