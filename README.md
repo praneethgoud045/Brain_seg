@@ -21,6 +21,7 @@ The primary objective is to develop, train, and validate an AI framework capable
 ________________________________________
 
 2. Methodology
+
 2.1 Dataset
 The following open-source datasets were used for training and evaluation:
 
