@@ -48,19 +48,24 @@ By running the following steps this we preprocessed for all images
 
 
 Visualization steps:
+
 ![image](https://github.com/user-attachments/assets/f94e2e73-2a4a-4094-8dc5-71552bd632b0)
 ![image](https://github.com/user-attachments/assets/700cf455-6605-4a5d-8463-33c3ed4fb4a4)
 ![image](https://github.com/user-attachments/assets/0bfda459-55f3-4f2c-a6ef-2066a8f87a63)
 
 •	We have done the visualizations for respective datasets
 •	Loading Data – Read neuroimaging files (e.g., .nii) using libraries like NiBabel or MONAI.
+
 •	Resampling & Normalization – Resize images to a consistent resolution and normalize intensity values for uniformity.
+
 ![image](https://github.com/user-attachments/assets/bf604c99-adaf-44aa-af4f-0d68d830fa11)
 
 Displaying their sizes
+
 ![image](https://github.com/user-attachments/assets/d45dbba8-b2e7-4e8b-acc9-72389ebc597a)
 
 •	 Skull Stripping – Remove non-brain tissues using algorithms like BET (FSL) or deep learning models.
+
 ![image](https://github.com/user-attachments/assets/9f2d4818-ed80-49f6-af31-26a12a04832a)
 
 Skull stripped MRI image
@@ -69,9 +74,11 @@ Skull stripped MRI image
 Feature Extraction:
 
 ![image](https://github.com/user-attachments/assets/27876b18-0c71-431a-b08f-d1c97094eda1) 
+
 •	Augmentation – Apply transformations (rotation, flipping, noise) to improve model generalization.
 
 ![image](https://github.com/user-attachments/assets/63a8745b-2abf-49c3-9bb8-ed6e9e0111a0)
+
 Where we augmented all images and we saved images
 
 
