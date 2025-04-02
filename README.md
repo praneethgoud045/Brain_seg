@@ -79,54 +79,74 @@ Feature Extraction:
 
 ![image](https://github.com/user-attachments/assets/63a8745b-2abf-49c3-9bb8-ed6e9e0111a0)
 
+![image](https://github.com/user-attachments/assets/ecee358b-669e-49a2-8441-6fca59cbaefe)
+
 Where we augmented all images and we saved images
 
 
 •	 Splitting Data – Divide into training, validation, and test sets to evaluate model performance properly as shown in fig below
- 
 
- 
-                     Training and testing Array Shape & Type
+ ![image](https://github.com/user-attachments/assets/aff9552c-839b-4b31-a210-e8b6c9f52186)
+
+![image](https://github.com/user-attachments/assets/fd3a51d5-0f1c-4906-8dad-1c6fa926e832)
+
+Training and testing Array Shape & Type
 
 
 •	Normalization: Intensity normalization to standardize voxel intensity values across different scans.
 
- 
+![image](https://github.com/user-attachments/assets/f3f1e68b-3888-4c2f-84a4-7b52a99dd29e)
 
-
-
- 
-
+![image](https://github.com/user-attachments/assets/915ce4f3-eae7-4f9f-8802-ce50938ce3c6)
 
 •	Resampling: All images were resampled to a uniform spatial resolution.
+
 •	Feature Extraction:
- 
+
+![image](https://github.com/user-attachments/assets/edd9af2b-8332-4f48-9337-0667acf20b26)
 
 •	Augmentation:
+
 o	Affine transformations (rotation, scaling, translation) to improve generalization.
 o	Intensity shifts and histogram equalization to enhance contrast.
 o	Gaussian noise injection to simulate real-world variations.
 o	Random flipping and cropping to increase dataset diversity.
 
+![image](https://github.com/user-attachments/assets/e50a0769-4361-46a2-af1c-ca071f512d9d)
+
  
 
 Different Views of Image:
 
- 
+![image](https://github.com/user-attachments/assets/b0c89bd9-8fb0-4fa7-8ead-4f621e38be28)
+
 
 
 
 2.2 Model Development
+
 Architecture Used
+
 •	U-Net: A widely used convolutional neural network for biomedical image segmentation.
- 
+
+![image](https://github.com/user-attachments/assets/70d17b17-8bee-4be8-b011-f48f1a815841)
+![image](https://github.com/user-attachments/assets/ef5b2b78-6f70-42db-903d-84a8c289a32d)
+
+
  
 •	MONAI Framework: Utilized for efficient training and inference in medical imaging applications.
- 
+
+![image](https://github.com/user-attachments/assets/65c4740d-710e-469b-ba08-8709baffcd21)
+
 
 Training Details
+
+![image](https://github.com/user-attachments/assets/0e21393c-f52a-42d3-ab0b-3eb0c4c7f4a1)
+
  
- 
+![image](https://github.com/user-attachments/assets/b6de0eea-098b-44f5-b782-5b0de3988ef6)
+
+![image](https://github.com/user-attachments/assets/ae549fd6-5b28-4f36-b65b-d6023b0945cf)
 
 •	Optimizer: Adam Optimizer with a learning rate of 0.0001.
 
@@ -135,12 +155,18 @@ Training Details
 •	Batch Size: 4
 •	Loss Function: Dice Loss and Cross-Entropy Loss.
 •	Epochs: 10
- 
- 
+
+![image](https://github.com/user-attachments/assets/fb260d00-1c89-43de-aff4-96491a15e661)
+![image](https://github.com/user-attachments/assets/16ed1531-4de8-4d3a-8b10-66ea63bc017e)
+
 Implementation in Jupyter Notebook
+
 The entire process was implemented using Jupyter Notebook to facilitate interactive execution and visualization of results.
+
 Libraries Used:
+
 To implement the framework, the following Python libraries were used:
+
 •	NumPy – For numerical operations and array manipulations.
 •	Pandas – For handling dataset metadata and statistical analysis.
 •	Matplotlib & Seaborn – For visualization of results and heatmaps.
@@ -154,24 +180,41 @@ To implement the framework, the following Python libraries were used:
 •	tqdm – For progress bar visualization during training.
 
 Validation of Model Performance
+
 Statistical analysis was performed to compare model predictions with ground truth annotations. The following metrics were computed:
+
 •	p-values from t-tests/ANOVA: A significance threshold of p<0.05 was used to determine statistical differences between patient groups.
- 
+
+ ![image](https://github.com/user-attachments/assets/28fd3284-5650-4192-a4b1-ed97f345c5eb)
+
 •	Volumetric Analysis: The differences in segmented region volumes were analyzed to detect abnormalities.
 3. Results & Visualizations:
+
+![image](https://github.com/user-attachments/assets/4a2d8423-394f-4c63-8d80-bb22c4d1b4d7)
 
 GRAY MATTER, WHITE MATTER, CSF & OVERLAY:
  
 
 after running and we predicted mask:
+![image](https://github.com/user-attachments/assets/1d5c3c73-94b7-4359-a1d2-01fae0a21fa8)
+
  
 3.1 Segmentation Results
+
 •	Visualizations of segmented brain structures (gray matter, white matter, CSF) from test images.
+
+![image](https://github.com/user-attachments/assets/e7372680-a13a-426a-9bdc-c3f26ead9d0b)
+
  
 Segmentations:
- 
+
+![image](https://github.com/user-attachments/assets/b23cbd97-db91-4781-a383-ea3bf54dd094)
+
 
 3.2 Abnormality Detection
+
+![image](https://github.com/user-attachments/assets/8e2e2473-5564-4463-8ff5-d2e85594be02)
+
 •	Heatmaps highlighting regions of interest.
  
 
