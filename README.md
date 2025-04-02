@@ -32,8 +32,11 @@ The following open-source datasets were used for training and evaluation:
 2.	IXI Dataset – A collection of T1, T2, and PD-weighted MRI images for healthy brain structures.
 3.	Open Neuro – Provides diverse neuroimaging datasets, including normal and abnormal brain scans.
 where these datasets were taken from their websites:
+
 https://www.synapse.org/Synapse:syn64153130/wiki/631048
+
 https://brain-development.org/ixi-dataset/
+
 https://openneuro.org/
 
 ![image](https://github.com/user-attachments/assets/29bb4d10-ecca-471d-8bd7-0bfd5acad75e)
