@@ -221,13 +221,6 @@ Segmentations:
 •	Heatmaps highlighting regions of interest.
  
 
-3.3 Statistical Results:
-
-Statistical Test	                p-value	         Interpretation
-t-test (Tumor vs. Normal)	        0.19	           Significant difference detected
-ANOVA 	                           0.20	           Significant variance observed
-
-
 4. Conclusion:
 
 This study successfully developed an AI-driven framework for automated brain segmentation and abnormality detection. The use of U-Net and MONAI enabled efficient segmentation of anatomical structures such as gray matter, white matter, and CSF.
